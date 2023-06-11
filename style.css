@@ -62,8 +62,10 @@ header {
 }
 
 .logo {
+  display: flex;
+  justify-content: center;
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 50px;
   color: #fff;
 }
 
@@ -205,7 +207,9 @@ footer p {
   }
 
   .logo {
-    font-size: 25px;
+    display: flex;
+    flex: 0 1 auto;
+    font-size: 45px;
   }
 
  form .item {
